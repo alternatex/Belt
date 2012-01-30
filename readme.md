@@ -1,18 +1,17 @@
 Belt
 =========
 
-###Interoperability library for script inclusion within titanium desktop sdk >= 1.2.0 
+Interoperability library for script inclusion within titanium desktop sdk >= 1.2.0 
+
+<a href="https://github.com/alternatex/Belt/tarball/master">get the latest</a>
  
 Example
 ----------------
 
-<a href="https://github.com/alternatex/Belt/tarball/master">download the master tgz</a>
-
 **ftp-client**
-<pre><code>
-&lt;script type="text/javascript" src="lib/belt.js">&lt;/script>
-
-&lt;script type="text/javascript"&gt;
+```html
+<script type="text/javascript" src="lib/belt.js"></script>
+<script type="text/javascript">
 	// fetch required
 	Belt('ftp', {
 		classNamespace: '\\util\\', 
@@ -39,24 +38,24 @@ Example
 			
 	// close connection
 	ftp.close();			
-&lt;/script>
-</code></pre>
+</script>
+```
 
-Known-Issues
-================
+Known Issues
+----------------
 **Version 0.0.2:**
 
 * restricted referencing (see v.0.0.3 kroll re-run)
 * not thread-safe
 
 Roadmap
-================
+----------------
 **Version 0.0.3**
 
 * kroll direct fnc call optimization - w/o turn-around inclusion by step - callback object transformation seems to work now - go "native" > as it's far from optimal right now
 
 Further Reading
-================
+----------------
 
 Titanium Desktop 
 ----------------
