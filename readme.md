@@ -27,18 +27,18 @@ Example
 		pass:'pass'
 	}};
 			
-	// create js instance o php bridgy bridge
+	// create php-obj js-ref through belt
 	var ftp = Belt("ftp", ftpOptions);
 
 	// open connection
 	ftp.open();
-			
+		
 	// transfer
 	ftp.upload("/path/to/local/file", "/path/to/remote/file");
 	ftp.upload("/path/to/remote/file", "/path/to/local/file1");
 			
 	// close connection
-	ftp.close();		
+	ftp.close();			
 &lt;/script>
 </code></pre>
 
