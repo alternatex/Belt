@@ -5,10 +5,10 @@ Interoperability library for script inclusion within titanium desktop sdk >= 1.2
 
 <a href="https://github.com/alternatex/Belt/tarball/master">get the latest</a>
  
-Example
+Usage
 ----------------
 
-**ftp-client**
+**FTP-Example**
 
 ```html
 <script type="text/javascript" src="lib/belt.js"></script>
@@ -55,10 +55,8 @@ Roadmap
 
 * kroll direct fnc call optimization - w/o turn-around inclusion by step - callback object transformation seems to work now - go "native" > as it's far from optimal right now
 
-Further Reading
-----------------
 
-Titanium Desktop 
+Further Reading: Titanium Desktop 
 ----------------
 [1.2.0 RC 1](http://developer.appcelerator.com/blog/2011/05/create-and-distribute-apps-through-the-mac-app-store-with-titanium-desktop-sdk-1-2-release-candidate-1.html)
 
