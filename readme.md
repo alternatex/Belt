@@ -3,9 +3,6 @@ Belt
 
 ###Interoperability library for script inclusion within titanium desktop sdk >= 1.2.0 
 
-**aiming to make things easier**
-
-<a href="https://github.com/alternatex/belt/">Go to Github</a> or 
 <a href="https://github.com/alternatex/belt/tarball/master">Download the master tgz</a>
  
 Example
