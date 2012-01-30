@@ -2,13 +2,11 @@ Belt
 =========
 
 Interoperability library for script inclusion within titanium desktop sdk >= 1.2.0 
-
-<a href="https://github.com/alternatex/Belt/tarball/master">get the latest</a>
  
-Usage
+Usage Example
 ----------------
 
-**FTP-Example**
+**FTP-Client**
 
 ```html
 <script type="text/javascript" src="lib/belt.js"></script>
@@ -41,6 +39,10 @@ Usage
 	ftp.close();			
 </script>
 ```
+
+Source
+----------------
+<a href="https://github.com/alternatex/Belt/tarball/master">latest tgz</a>
 
 Known Issues
 ----------------
