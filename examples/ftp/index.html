@@ -1,0 +1,38 @@
+<!doctype html> 
+<html> 
+    <head> 
+    	<meta charset="utf-8" />
+        <title>belt - examples - ftp</title>
+		<script type="text/javascript" src="../../lib/belt.js"></script>        		
+    </head> 
+    <body>
+		<script type="text/javascript">					
+			// fetch required
+			Belt('ftp', {
+				classNamespace: '\\util\\', 
+				classPath: 'ftp.php',
+				instantiate: false
+			});
+			 
+			// setup connection credentials	
+			var ftpOptions = {instanceArgs: {
+				host: 'ftp.host.tld',
+				user:'user',
+				pass:'pass'
+			}};
+			
+			// create php-obj js-ref through belt
+			var ftp = Belt("ftp", ftpOptions);
+
+			// open connection
+			ftp.open();
+			
+			// transfer
+			ftp.upload("/path/to/local/file", "/path/to/remote/file");
+			ftp.upload("/path/to/remote/file", "/path/to/local/file1");
+			
+			// close connection
+			ftp.close();									
+		</script>			
+	</body> 
+</html>

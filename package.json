@@ -1,0 +1,11 @@
+{
+    "name": "Belt"
+  , "description": "Interoperability library for script inclusion within titanium desktop sdk >= 1.2.0"
+  , "version": "0.0.2"
+  , "author": "Gianni Furger <gianni.furger@gmail.com>"  
+  , "main": "lib/belt.js"
+  , "repository": {
+       "type": "git"
+      , "url": "git://github.com/alternatex/belt.git"
+    }  
+}
