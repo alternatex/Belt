@@ -35,7 +35,7 @@ Example
 		
 	// transfer
 	ftp.upload("/path/to/local/file", "/path/to/remote/file");
-	ftp.upload("/path/to/remote/file", "/path/to/local/file1");
+	ftp.download("/path/to/remote/file", "/path/to/local/file1");
 			
 	// close connection
 	ftp.close();			
