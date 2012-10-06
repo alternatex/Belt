@@ -6,6 +6,6 @@
   , "main": "lib/belt.js"
   , "repository": {
        "type": "git"
-      , "url": "git://github.com/alternatex/Belt.git"
+      , "url": "git://github.com/alternatex/belt.git"
     }  
 }
